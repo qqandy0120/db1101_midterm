@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+div#root form.search {
+  background-color: #f6eabe;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  width: 60vw;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+div#root form.search div.addressTags {
+  position: absolute;
+  left: 7rem;
+  top: 2rem;
+}
+
+div#root form.search div.addressTags label {
+  font-size: 1.25rem;
+  padding-right: 3.5rem;
+}
+
+div#root form.search div.addressTags input#address {
+  width: 25rem;
+  border: #c6c6c6 solid 2px;
+  border-radius: 0.25rem;
+  height: 2rem;
+  font-size: 1.25rem;
+  padding: 0 0.25rem;
+}
+
+div#root form.search div.conditionTags {
+  position: absolute;
+  left: 7rem;
+  top: 5rem;
+}
+
+div#root form.search div.conditionTags label {
+  font-size: 1.25rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+div#root form.search div.conditionTags button {
+  font-size: 1.1rem;
+  border: #c6c6c6 solid 2px;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  color: #8b8b8b;
+  background-color: #ffffff;
+}
+
+div#root form.search div.conditionTags button:hover {
+  background-color: #eb9c23;
+  color: white;
+  border: #eb9c23 solid 2px;
+  cursor: pointer;
+}
+
+div#root form.search button.submit {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+  font-size: 1rem;
+  width: 3.5rem;
+  padding: 0.1rem;
+  border: #c6c6c6 solid 2px;
+  border-radius: 0.5rem;
+  color: #8b8b8b;
+  background-color: white;
+}
+
+div#root form.search button.submit:hover {
+  background-color: #eb9c23;
+  color: white;
+  border: #eb9c23 solid 2px;
+  cursor: pointer;
+}
+
+div#root div.whole {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+div#root div.twoSide {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div#root div.twoSide div.left {
+  width: 55%;
+  padding-right: 1rem;
+}
+
+div#root div.twoSide div.right {
+  width: 45%;
+}
+
+div#root div.card {
+  width: 100%;
+  border: 4px solid #f6d7a7;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 1.25rem;
+}
+
+div#root div.card div.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div#root div.card div.title h3 {
+  color: #eb9c23;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+div#root div.card div.title p {
+  padding-top: 0.55rem;
+  padding-left: 0.7rem;
+  color: #ad91a3;
+}
+
+div#root div.card div.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.5rem;
+}
+
+div#root div#environment table tr td {
+  text-align: center;
+  padding: 0.5rem 2rem;
+}
+
+div#root div#eco table tr td {
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+div#root div#safety table tr td {
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+div#root div#map {
+  padding: 0;
+}
+
+div#root div#map iframe {
+  width: 100%;
+  height: 58vh;
+  border-radius: 2rem;
+  border: 0;
+}
+/*# sourceMappingURL=App.css.map */
